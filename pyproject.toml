@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jobfinder"
+version = "0.1.0"
+description = "Find jobs on TrueUp using Web Scraping."
+authors = ["Faisal Fida <69955157+faisal-fida@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+fastapi = "^0.109.2"
+bs4 = "^0.0.2"
+uvicorn = "^0.27.1"
+logging = "^0.4.9.6"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "^0.109.2"
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
